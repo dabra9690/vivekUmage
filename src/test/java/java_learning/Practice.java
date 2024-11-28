@@ -1,4 +1,4 @@
-package test;
+package java_learning;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
