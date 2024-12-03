@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.Testing">
+      <class name="com.test.HomeTailsTest">
         <methods>
-          <include name="stevemadden"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="SearchAndGetPrice"/>
         </methods>
-      </class> <!-- test.Testing -->
+      </class> <!-- com.test.HomeTailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
